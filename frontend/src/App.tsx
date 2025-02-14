@@ -3,7 +3,7 @@ import EmployeeTable from './components/EmployeeTable';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="container">
       <EmployeeTable />
     </div>
   );
