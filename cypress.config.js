@@ -7,10 +7,10 @@ module.exports = defineConfig({
     env: {
       API_URL: 'http://localhost:3001/api'
     },
-    supportFile: false,
     setupNodeEvents(on, config) {
       tasks(on)
       return config
     },
+    supportFile: false,
   },
 })
