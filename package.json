@@ -5,7 +5,8 @@
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:api": "cypress run --config baseUrl=https://localhost:3001/api/employees --spec cypress/e2e/api/crudEmployees.cy.js"
   },
   "keywords": [
     "cypress",
