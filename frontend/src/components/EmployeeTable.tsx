@@ -114,6 +114,7 @@ const EmployeeTable: React.FC = () => {
 
       <h2>{editingEmployee ? 'Edit Employee' : 'Add New Employee'}</h2>
       <input
+        autoComplete="off"
         type="text"
         name="name"
         placeholder="Name"
